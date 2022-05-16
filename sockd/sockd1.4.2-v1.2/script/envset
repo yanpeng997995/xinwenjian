@@ -7,7 +7,7 @@ echo "PASSWORD: $PASSWORD"
 
 ( [ ! -z "$USERNAME" ] && [ ! -z "$PASSWORD" ] ) && \
     echo "Add new user " && \
-    sh pam add $USER $PASSWD
+    sh /home/danted/script/pam add $USER $PASSWD
 
 CONF_FILE="/home/danted/conf/sockd.conf"
 
