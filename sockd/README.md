@@ -8,7 +8,8 @@
 
 2、在腾讯云的容器镜像服务中，开通服务，创建实例，确认对应地域（香港或海外指定区域）有默认共享实例，通过设置默认共享实例的密码，初始化默认实例；
 
-3、在云托管弹性服务实例中，选择好地域，创建环境：服务入口：https://console.cloud.tencent.com/tcbr/elasticservice
+3、在云托管控制台中，开通云开发云托管服务，入口地址：https://console.cloud.tencent.com/tcb；
+   在弹性服务实例中，选择好地域，创建环境：服务入口：https://console.cloud.tencent.com/tcbr/elasticservice
 
 3、在镜像仓库中应该有一个步骤3中环境名开头的镜像，进入到这个镜像中；
 
