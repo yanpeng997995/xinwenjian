@@ -19,7 +19,8 @@ ENV CONFIG_GUESS "http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;
 ENV CONFIG_SUB "http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD"
 
 ENV PORT=2020
-
+ENV USERNAME=XIAOYAN
+ENV PASSWORD=mima123..
 #RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
 
 RUN apk add --no-cache linux-pam apache2-utils && \
